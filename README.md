@@ -14,6 +14,6 @@ The mesh seen on the image is entirely created using a single script ("treehouse
 The script includes a class which allows to define prisms with a hexagonal base by specifying all 12 corner positions. The entire structure is then made up of such prisms, and the corner points are defined as functions of a few parameters. Changing these parameters results in changes of shape as seen in the gif. 
 
 # Further Reading
-Procedural meshes generated via script are a rather uncommon approach to mesh generation and I am not aware of a lot of tutorials on this subject. However, these are two excellent youtube tutorials I would like to recommend:
+As a starting point into procedural meshes in Unity I recommend these two youtube tutorials:
 * https://www.youtube.com/watch?v=eJEpeUH1EMg
 * https://www.youtube.com/watch?v=64NblGkAabk&t=600sfree 
