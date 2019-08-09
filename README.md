@@ -1,5 +1,5 @@
 # Unity-Dynamic-Mesh
-An example of a dynamic mesh which can be changed along several parameters at runtime
+An example of a procedural mesh which can be changed dynamically along several parameters at runtime
 
 # Purpose
 3D objects are usually loaded into Unity using formats like FBX. This approach allows to alter an object's mesh by means of animations, bones or blendshapes. In this project, on the other hand, we generate an object via script, which allows to completely procedurally alter some of its basic properties at runtime. 
