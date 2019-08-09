@@ -11,6 +11,7 @@ If the Gif does not load, maybe this image will:
 
 # Installation
 The mesh seen on the image is entirely created using a single script ("treehouse.cs") which you can attach to any object in your Unity project. All you need to add is a material of your choice (I used a material from the package "Procedural Simple Wood Texture (PBR)". Note that you also need to import the asset "Substance in Unity" for this to work in newer Unity versions).
+
 The script includes a class which allows to define prisms with a hexagonal base by specifying all 12 corner positions. The entire structure is then made up of such prisms, and the corner points are defined as functions of a few parameters. Changing these parameters results in changes of shape as seen in the gif. 
 
 # Further Reading
