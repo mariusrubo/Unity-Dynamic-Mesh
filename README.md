@@ -1,6 +1,5 @@
 # Unity-Dynamic-Mesh
 An example of a procedural mesh which can be changed dynamically along several parameters at runtime.
-NOTE: The code in this project is still quite a mess. It is more of an example what procedural meshes look like. I may upload a more organized set of scripts to facilitate such projects at a later point. 
 
 # Purpose
 3D objects are usually loaded into Unity using formats like FBX. This approach allows to alter an object's mesh by means of animations, bones or blendshapes. In this project, on the other hand, we generate an object via script, which allows to completely procedurally alter some of its basic properties at runtime. 
@@ -13,6 +12,8 @@ If the Gif does not load, see the image "changing_structure.jpg" in this repo.
 The mesh seen on the image is entirely created using a single script ("treehouse.cs") which you can attach to any object in your Unity project. All you need to add is a material of your choice (I used a material from the package "Procedural Simple Wood Texture (PBR)". Note that you also need to import the asset "Substance in Unity" for this to work in newer Unity versions).
 
 The script includes a class which allows to define prisms with a hexagonal base by specifying all 12 corner positions. The entire structure is then made up of such prisms, and the corner points are defined as functions of a few parameters. Changing these parameters results in changes of shape as seen in the gif. 
+
+Note that code in this project is not yet structured in a nice and modular way. I may upload a more organized set of scripts at a later point. 
 
 # Further Reading
 As a starting point into procedural meshes in Unity I recommend these two youtube tutorials:
